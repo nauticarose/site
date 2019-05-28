@@ -3,54 +3,53 @@
 
 <head>
   <style>
-    .grid{
-      width:80%
-      margin: 0 auto;
+    .grid {
+      width: 80% margin: 0 auto;
     }
-    
+
     body {
       background: #789afe;
     }
 
     @media only screen and (min-width: 800px) {
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 0px;
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0px;
+      }
+
+      .span-col-2 {
+        grid-column: span 2 / auto;
+      }
+
+      .span-col-3 {
+        grid-column: span 3 / auto;
+      }
+
+
+
+      #title {
+        background: #D21DFA;
+        color: white;
+      }
+
+      nav {
+        background: #156f;
+        color: white;
+      }
+
+      article {
+        background: #631DFA;
+        color: white;
+      }
+
+
+      footer {
+        background: #176f;
+        color: white;
+      }
     }
-
-    .span-col-2 {
-      grid-column: span 2 / auto;
-    }
-
-    .span-col-3 {
-      grid-column: span 3 / auto;
-    }
-
-
-
-    #title {
-      background: #D21DFA;
-      color: white;
-    }
-
-    nav {
-      background: #156f;
-      color: white;
-    }
-
-    article {
-      background: #631DFA;
-      color: white;
-    }
-
-
-    footer {
-      background: #176f;
-      color: white;
-    }
-  }
   </style>
 
 
